@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Temperature Converter Website" />
+    <meta
+      name="keywords"
+      content="Code Alpha, Temperature Converter Website , nehal, Responsive Designs"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/images/thermometer.png"
+    />
+
+    <title>Temperature Converter Website</title>
+
+    <!-- stylesheet linking -->
+    <link rel="stylesheet" href="./src/css/output.min.css" />
+
+    <!-- script linking -->
+    <script defer src="./src/js/script.min.js"></script>
+  </head>
+  <body
+    class="m-2 flex min-h-screen flex-col items-center justify-center bg-[rgb(223,233,244)] font-['Lato',sans-serif]"
+  >
+    <main
+      class="flex justify-center gap-4 rounded-xl bg-white px-5 py-8 shadow-2xl max-md:flex-col md:max-w-6xl md:p-8"
+    >
+      <h1 class="sr-only">Temperature Converter Website</h1>
+
+      <form id="form">
+        <fieldset class="flex flex-col justify-between">
+          <legend class="sr-only">Enter Temperature</legend>
+
+          <div class="flex flex-col">
+            <label for="inputTemp" class="pb-[0.27rem] text-sm text-gray-700"
+              >Degrees</label
+            >
+            <input
+              class="mb-4 mr-2 flex w-full rounded-lg border border-slate-200 px-5 py-2.5 text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-1"
+              type="number"
+              id="inputTemp"
+              name="inputTemp"
+              value=""
+              placeholder="Temperature"
+              title="Enter Temperature"
+            />
+            <span
+              class="error-txt -mt-3.5 hidden pb-2 text-center text-[13px] text-red-400 transition-opacity duration-500"
+              >Please enter a valid temperature</span
+            >
+            <label
+              for="inputTemp-unit"
+              class="pb-[0.27rem] text-sm text-gray-700"
+              >Type</label
+            >
+            <select
+              class="mb-5 mr-2 flex w-full rounded-lg border border-slate-200 px-5 py-2.5 text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-1"
+              name="inputTemp-unit"
+              id="inputTemp-unit"
+              title="Choose Unit"
+            >
+              <option value="°C">Celsius</option>
+              <option value="°F">Fahrenheit</option>
+              <option value="K">Kelvin</option>
+            </select>
+          </div>
+
+          <button
+            type="submit"
+            id="submit-btn"
+            class="mb-2 mr-2 w-full rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white transition-all duration-200 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300"
+            aria-pressed="false"
+            aria-label="Convert Temperature"
+            title="Click To Convert"
+          >
+            Convert
+          </button>
+        </fieldset>
+      </form>
+
+      <div
+        class="convertedTemp relative flex h-[12.8rem] flex-col justify-center rounded-lg border border-slate-200 px-4"
+      >
+        <div class="flex items-center justify-center">
+          <div class="thermometer-image absolute">
+            <img
+              class="rotate-12 opacity-20"
+              src="./assets/images/thermometer.png"
+              width="120"
+              alt="Tilted Thermometer Illustration"
+            />
+          </div>
+          <div class="visible flex flex-col gap-2">
+            <div class="flex justify-between text-gray-600">
+              <label for="tempC">Celsius </label>
+              <input
+                class="flex w-full max-w-[8rem] text-right font-normal focus:outline-none"
+                type="text"
+                id="tempC"
+                name="tempC"
+                value=""
+                placeholder="[ °C ]"
+                aria-readonly="true"
+                readonly
+              />
+            </div>
+            <div class="flex justify-between text-gray-600">
+              <label for="tempF">Fahrenheit </label>
+              <input
+                class="flex w-full max-w-[8rem] text-right font-normal focus:outline-none"
+                type="text"
+                id="tempF"
+                name="tempF"
+                value=""
+                placeholder="[ °F ]"
+                aria-readonly="true"
+                readonly
+              />
+            </div>
+            <div class="flex justify-between text-gray-600">
+              <label for="tempK">Kelvin</label>
+              <input
+                class="flex w-full max-w-[8rem] text-right font-normal focus:outline-none"
+                type="text"
+                id="tempK"
+                name="tempK"
+                value=""
+                placeholder="[ K ]"
+                aria-readonly="true"
+                readonly
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="absolute bottom-2 text-center text-sm text-gray-600">
+      Designed with ❤️ by Nehal |
+      <span
+        >&copy; All Rights Reserved by
+        <a class="text-blue-600" href="https://www.linkedin.com/in/nehalsahu/"
+          >Nehal Sahu</a
+        >
+        2023</span
+      >
+    </footer>
+  </body>
+</html>

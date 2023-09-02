@@ -1,0 +1,23 @@
+{
+  "name": "code_alpha_temperature-converter-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "vite",
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "minify-css": "minify ./src/css/output.css > ./src/css/output.min.css",
+    "minify-js": "terser ./src/js/script.js -o ./src/js/script.min.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9"
+  }
+}
