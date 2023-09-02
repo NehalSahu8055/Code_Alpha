@@ -8,8 +8,8 @@ This project is a simple web-based temperature converter. It allows users to ent
 
 ## Links
 
-- **Solution URL:** [View Solution](https://github.com/YourUsername/temperature-converter)
-- **Live Site URL:** [Try it Live](https://yourusername.github.io/temperature-converter/)
+- **Solution URL:** [View Solution](https://github.com/NehalSahu8055/Code_Alpha/tree/master/Code_Alpha_Temperature-Converter-Website)
+- **Live Site URL:** [Try it Live](https://temp-converter-nehal.netlify.app/)
 
 ## My Process
 
