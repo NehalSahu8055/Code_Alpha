@@ -1,27 +1,32 @@
-This is a solution to the [Notification Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC).
+# Temperature Converter
 
-### Links
+This repository contains a solution to the Temperature Converter challenge, which is part of the [Code Alpha](https://www.linkedin.com/company/codealpha/) internship program.
 
-- Solution URL: [Click here](https://github.com/NehalSahu8055/Responsive-Notification-Page)
-- Live Site URL: [Click here](https://notification-page-nehal.netlify.app/)
+## Challenge Details
 
-## My process
+This project is a simple web-based temperature converter. It allows users to enter a temperature value and select the unit (Celsius, Fahrenheit, or Kelvin), and then it converts and displays the temperature in the other two units. The goal of this project is to provide an efficient and user-friendly tool for temperature conversion.
 
-### Built with
+## Links
+
+- **Solution URL:** [View Solution](https://github.com/YourUsername/temperature-converter)
+- **Live Site URL:** [Try it Live](https://yourusername.github.io/temperature-converter/)
+
+## My Process
+
+### Technologies Used
 
 - Semantic HTML5 markup
 - Tailwind CSS
 - Vanilla JS
 
-### General Features
+### Key Features
 
-- 🫧 CSS Animations
-- 🪁 Relative Source Font
-- 🗜️ Using clamps
-- 🗜 Minified CSS & JS
-- ✨ Prettier Plugin
-- 📈 Scored 99% on Google Pagespeed Insights!
+- **Semantic HTML:** Utilized semantic HTML elements to ensure accessibility and proper structure.
+- **CSS Styling:** Created a visually appealing and responsive design with a clean user interface.
+- **JavaScript Logic:** Implemented the temperature conversion logic to provide real-time results.
+- **Accessibility:** Ensured the website is accessible to all users by following accessibility best practices.
+- **Error Handling:** Provided clear error messages for invalid inputs and edge cases.
 
 ## Author
 
-- Frontend Mentor - [@NehalSahu8055](https://www.frontendmentor.io/profile/NehalSahu8055)
+- Code_Alpha Intern: [Nehal Sahu](https://github.com/NehalSahu8055)
