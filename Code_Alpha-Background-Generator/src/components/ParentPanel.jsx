@@ -14,14 +14,12 @@ export default function ParentPanel() {
     custom: "r",
   });
 
-  // console.log(orientation["cssOri"]);
   const handleOrientation = (e) => {
     const { name, value, dataset } = e.target;
     setOrientation((prevOrientation) => ({
       custom: dataset.tailwind,
       cssOri: value,
     }));
-    console.log(dataset.tailwind, name);
   };
 
   const handleColorChange = (e) => {
@@ -33,7 +31,7 @@ export default function ParentPanel() {
     }));
   };
   return (
-    <main className="font-mont bg-[url('/bgg.jpg')] bg-no-repeat bg-cover flex flex-col min-h-screen  gap-5 justify-between p-4">
+    <main className="font-mont bg-[url('/bgg.jpg')] bg-no-repeat bg-cover flex flex-col min-h-screen  gap-5 justify-between p-4 ">
       <LeftPanel color={color} orientation={orientation} />
       <RightPanel
         color={color}
