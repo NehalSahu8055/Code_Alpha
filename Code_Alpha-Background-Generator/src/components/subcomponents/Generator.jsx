@@ -30,7 +30,6 @@ export default function Generator({
                 : "bg-transparent"
             }`}
             htmlFor="radio1"
-            title={value}
           >
             <Icon icon="iconoir:arrow-tr" color="white" width={25} />
           </label>
@@ -52,7 +51,6 @@ export default function Generator({
                 : "bg-transparent"
             }`}
             htmlFor="radio3"
-            title={value}
           >
             <Icon icon="iconoir:arrow-br" color="white" width={25} />
           </label>
@@ -74,7 +72,6 @@ export default function Generator({
                 : "bg-transparent"
             }`}
             htmlFor="radio4"
-            title={value}
           >
             <Icon icon="iconoir:arrow-down" color="white" width={25} />
           </label>
@@ -96,7 +93,6 @@ export default function Generator({
                 : "bg-transparent"
             }`}
             htmlFor="radio5"
-            title={value}
           >
             <Icon icon="iconoir:arrow-bl" color="white" width={25} />
           </label>
@@ -118,7 +114,6 @@ export default function Generator({
                 : "bg-transparent"
             }`}
             htmlFor="radio6"
-            title={value}
           >
             <Icon icon="iconoir:arrow-left" color="white" width={25} />
           </label>
@@ -140,7 +135,6 @@ export default function Generator({
                 : "bg-transparent"
             }`}
             htmlFor="radio7"
-            title={value}
           >
             <Icon icon="iconoir:arrow-tl" color="white" width={25} />
           </label>
@@ -162,7 +156,6 @@ export default function Generator({
                 : "bg-transparent"
             }`}
             htmlFor="radio8"
-            title={value}
           >
             <Icon icon="iconoir:arrow-up" color="white" width={25} />
           </label>
