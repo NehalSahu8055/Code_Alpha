@@ -9,9 +9,8 @@ The Background Generator is a web-based tool designed to help users create custo
 ## Links
 
 - **Solution URL:** [View Solution](https://github.com/NehalSahu8055/Code_Alpha/tree/master/Code_Alpha-Background-Generator)
-- **Live Site URL:** [Try it Live](https://github.com/NehalSahu8055/Code_Alpha/tree/master/Code_Alpha-Background-Generator)
+- **Live Site URL:** [Try it Live](https://bg-generator-nehal.netlify.app/)
 
-## My Process
 
 ### Technologies Used
 
