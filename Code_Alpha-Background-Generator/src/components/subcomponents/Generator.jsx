@@ -12,7 +12,7 @@ export default function Generator({
     <>
       {/* Gradient Generator  */}
       <form className="flex flex-col flex-[0.5] justify-center gap-3">
-        <div className="css-orientation flex flex-[0.2]  justify-center items-center bg-[#1e203c] rounded-[1rem] gap-5 py-4">
+        <div className="css-orientation flex flex-[0.2]  justify-center items-center bg-[#1e203c] rounded-[1rem] gap-5 py-4 flex-wrap px-2">
           <input
             type="radio"
             name="css-ori"
