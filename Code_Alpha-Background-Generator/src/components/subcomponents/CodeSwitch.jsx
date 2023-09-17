@@ -115,7 +115,7 @@ export function CodeSwitch({ color, orientation }) {
         {/* Tab with Code Snippet */}
         <div className="code head lg:relative bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
           {/* Code Tabs */}
-          <div className="code__navbar flex max-lg:flex-col text-[15px] w-[25rem] max-lg:w-[8rem]">
+          <div className="code__navbar flex max-lg:flex-col text-[15px] w-[25rem] max-lg:w-[4.5rem]">
             {/* Everytime a function calls it update itself */}
             {tabs.map((tab, index) => (
               <button
@@ -130,7 +130,7 @@ export function CodeSwitch({ color, orientation }) {
             ))}
             <button
               onClick={handleCopyCode}
-              className="copy-btn absolute right-3 max-lg:top-3 lg:top-0 lg:bottom-0 my-auto w-16 flex justify-center items-center h-10 rounded-[0.25rem] bg-gray-500  text-white transition-all"
+              className="copy-btn absolute right-3 max-lg:bottom-3 lg:top-0 lg:bottom-0 my-auto w-16 flex justify-center items-center h-10 rounded-[0.25rem] bg-gray-500  text-white transition-all"
             >
               Copy
             </button>

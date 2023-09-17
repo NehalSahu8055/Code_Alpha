@@ -31,7 +31,7 @@ export default function ParentPanel() {
     }));
   };
   return (
-    <main className="font-mont bg-[url('/bgg.jpg')] bg-no-repeat bg-cover flex flex-col min-h-screen  gap-5 justify-between p-4 ">
+    <main className="font-mont bg-[url('/bgg.jpg')] bg-no-repeat bg-cover flex flex-col min-h-screen  gap-5 justify-between md:p-4 p-2 ">
       <LeftPanel color={color} orientation={orientation} />
       <RightPanel
         color={color}

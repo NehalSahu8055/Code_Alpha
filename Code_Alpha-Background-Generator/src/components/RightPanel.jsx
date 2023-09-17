@@ -8,7 +8,7 @@ export default function RightPanel({
   onOrientationChange,
 }) {
   return (
-    <div className="flex  justify-between flex-[0.5] gap-5 max-lg:flex-col-reverse max-lg:gap-20 px-4 pb-4">
+    <div className="flex  justify-between flex-[0.5] gap-5 max-lg:flex-col-reverse max-lg:gap-20 md:px-4 pb-4">
       <CodeSwitch color={color} orientation={orientation} />
 
       <Generator
