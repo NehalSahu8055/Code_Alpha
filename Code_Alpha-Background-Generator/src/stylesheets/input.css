@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input::-webkit-color-swatch {
+  box-shadow: 0px 0px 10px 1px #44444442;
+  border-radius: 0.2rem 5rem;
+  border: 1px solid #9090906e;
+}
+input::-moz-color-swatch {
+  box-shadow: 0px 0px 10px 1px #44444442;
+  border-radius: 0.25rem;
+  border: 1px solid #9090906e;
+}
+.shadow-card {
+  box-shadow: 0px 0px 10px 1px #44444442;
+}
+.border-card {
+  border: 1px solid #9090906e;
+}
+.font-mont{
+  font-family: 'Montserrat', sans-serif;
+}
