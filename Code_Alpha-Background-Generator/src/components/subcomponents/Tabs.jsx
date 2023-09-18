@@ -25,8 +25,10 @@ export default function Tabs({ tabName, orientation, color1, color2 }) {
         <span className="text-orange-300">
           style= {""}
           <span className="text-violet-200">
-            &#123; <span className="text-green-400">backgroundImage: </span>{" "}
-            linear-gradient({orientation.cssOri}, {color1}, {color2}) &#125;
+            &#123;&#123;{" "}
+            <span className="text-green-400">backgroundImage: </span>{" "}
+            linear-gradient({orientation.cssOri}, {color1}, {color2})
+            &#125;&#125;
           </span>
         </span>
       </code>
